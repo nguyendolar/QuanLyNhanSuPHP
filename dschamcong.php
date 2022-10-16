@@ -90,7 +90,7 @@
                                                         Đơn chấm công của nhân viên <?php echo $arUser["hoten"] ?> ngày <?php echo $arUser["ngaychamcong"] ?>
                                                         <div class="modal-footer mt-2">
                                                     <button type="button" class="btn btn-secondary"
-                                                        data-bs-dismiss="modal">Close</button>
+                                                        data-bs-dismiss="modal">Đóng</button>
                                                     <button type="submit" class="btn btn-primary" name="pheduyet">Phê duyệt</button>
                                                 </div>
                                                     </form>

@@ -50,10 +50,10 @@
                             <nav class="sb-sidenav-menu-nested nav">
                                 <a class="nav-link" href="nhanvien.php">Danh sách nhân viên</a>
                                 <a class="nav-link" href="dschamcong.php">Danh sách chấm công</a>
-                                <a class="nav-link" href="nam.php">Danh sách hợp đồng</a>
-                                <a class="nav-link" href="ngay.php">Danh sách nghỉ việc</a>
-                                <a class="nav-link" href="thang.php">Danh sách khen thưởng</a>
-                                <a class="nav-link" href="nam.php">Danh sách kỷ luật</a>
+                                <a class="nav-link" href="hopdong.php">Danh sách hợp đồng</a>
+                                <a class="nav-link" href="nghiviec.php">Danh sách nghỉ việc</a>
+                                <a class="nav-link" href="khenthuong.php">Danh sách khen thưởng</a>
+                                <a class="nav-link" href="kyluat.php">Danh sách kỷ luật</a>
                             </nav>
                         </div>
                         <a class="nav-link collapsed" href="#" data-bs-toggle="collapse"
@@ -65,8 +65,8 @@
                         <div class="collapse" id="collapseLayouts1" aria-labelledby="headingOne"
                             data-bs-parent="#sidenavAccordion">
                             <nav class="sb-sidenav-menu-nested nav">
-                                <a class="nav-link" href="ngay.php">Danh sách phòng ban</a>
-                                <a class="nav-link" href="thang.php">Danh sách chức vụ</a>
+                                <a class="nav-link" href="phongban.php">Danh sách phòng ban</a>
+                                <a class="nav-link" href="chucvu.php">Danh sách chức vụ</a>
                             </nav>
                         </div>
                         <?php } ?>

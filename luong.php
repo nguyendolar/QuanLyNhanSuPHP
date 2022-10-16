@@ -141,7 +141,7 @@
                                                     </div>    
                                                         <div class="modal-footer">
                                                     <button type="button" class="btn btn-secondary"
-                                                        data-bs-dismiss="modal">Close</button>
+                                                        data-bs-dismiss="modal">Đóng</button>
                                                     <button type="submit" class="btn btn-primary" name="sual">Lưu</button>
                                                 </div>
                                                     </form>

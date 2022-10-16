@@ -59,7 +59,7 @@
                                                     <div class="col-6 mb-3">
                                                         <label for="category-film"
                                                             class="col-form-label">Quyền:</label>
-                                                            <input type="text" class="form-control" id="category-film" name="matkhau" value="<?php echo $arUser["quyen"] ?>" readonly>
+                                                            <input type="text" class="form-control" id="category-film" name="quyen" value="<?php echo $arUser["quyen"] ?>" readonly>
                                                     </div>
                                                         </div>
                                                         <div class="row">

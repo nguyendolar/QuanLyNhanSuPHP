@@ -34,7 +34,7 @@ if (isset($_SESSION['taikhoan'])) {
                                             </div>
                                             <?php if (isset($_GET['fail'])){ ?>
                                             <div class="alert alert-danger">
-                                                <strong>Email không tồn tài !</strong>
+                                                <strong>Email không tồn tại !</strong>
                                             </div>
                                             <?php }  ?> 
                                             <div class="d-flex align-items-center justify-content-between mt-4 mb-0">

@@ -354,10 +354,10 @@ if(isset($_POST['themcc'])){
     $phutdilam = (int) substr($dilam, 3, 2);
     $giodive = (int) substr($dive, 0, 2);
     $trangthai = "Chờ phê duyệt";
-    if(($giodilam > 8 && $giodive < 17) || ($giodilam = 8 && $phutdilam > 0 && $giodive < 17)){
+    if(($giodilam > 8 && $giodive < 17) || ($giodilam == 8 && $phutdilam > 0 && $giodive < 17)){
         $tinhtrang = "Đi trễ, về sớm";
     }
-    else if(($giodilam > 8) ||($giodilam = 8 && $phutdilam > 0) ){
+    else if(($giodilam > 8) ||($giodilam == 8 && $phutdilam > 0) ){
         $tinhtrang = "Đi trễ";
     }
     else if($giodive < 17){
@@ -391,10 +391,10 @@ if(isset($_POST['suacc'])){
     $giodilam = (int) substr($dilam, 0, 2);
     $phutdilam = (int) substr($dilam, 3, 2);
     $giodive = (int) substr($dive, 0, 2);
-    if(($giodilam > 8 && $giodive < 17) || ($giodilam = 8 && $phutdilam > 0 && $giodive < 17)){
+    if(($giodilam > 8 && $giodive < 17) || ($giodilam == 8 && $phutdilam > 0 && $giodive < 17)){
         $tinhtrang = "Đi trễ, về sớm";
     }
-    else if(($giodilam > 8) ||($giodilam = 8 && $phutdilam > 0) ){
+    else if(($giodilam > 8) ||($giodilam == 8 && $phutdilam > 0) ){
         $tinhtrang = "Đi trễ";
     }
     else if($giodive < 17){
